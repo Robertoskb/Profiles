@@ -58,7 +58,6 @@ class File:
         a.close()
 
 
-
 class NewProfile(File):
     #cria, carrega e deleta perfis salvos
 
@@ -73,7 +72,7 @@ class NewProfile(File):
         
         self.name = name
         
-        return self._SaveProfile()
+        self._SaveProfile()
 
 
     def LoadProfile(self, id):        
