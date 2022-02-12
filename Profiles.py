@@ -47,8 +47,6 @@ class File:
 
         self.__init__(self.file, self.items)
 
-        return self.LoadProfile(-1)
-
 
     def _SaveProgress(self):
         a = open(self.file, 'w', newline='')
